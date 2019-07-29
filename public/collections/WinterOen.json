@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "fdgb4qw5ytwh",
+    "index": 0,
+    "title": "Green day",
+    "price": 5000,
+    "discount": 100,
+    "pictureURL": "https://i.pinimg.com/originals/32/46/3a/32463a4277dff966331604dd9c38d500.jpg"
+  },
+  {
+    "_id": "wthwrfghwdgh",
+    "index": 1,
+    "title": "Blue day",
+    "price": 6000,
+    "discount":  100,
+    "pictureURL": "https://i.pinimg.com/originals/19/d7/ac/19d7ac3718843439d6ca92cd3b401c78.jpg"
+  },
+  {
+    "_id": "wrhggfwhgfhw",
+    "index": 2,
+    "title": "Sindy Kay",
+    "price": 7000,
+    "discount":  100,
+    "pictureURL": "https://i.pinimg.com/originals/71/fb/d0/71fbd087316145606377662d12d46847.jpg"
+  },
+  {
+    "_id": "wrthwrhwgh",
+    "index": 3,
+    "title": "Moon Night",
+    "price": 8000,
+    "discount":  100,
+    "pictureURL": "https://cdnd.lystit.com/photos/fc6e-2015/10/29/adolescent-clothing-black-christmas-sweater-dress-with-winter-fashion-print-product-0-249712661-normal.jpeg"
+  },
+  {
+    "_id": "hwrthrghgw",
+    "index": 4,
+    "title": "Silver Stoun",
+    "price": 9000,
+    "discount":  100,
+    "pictureURL": "https://i0.wp.com/stylesthatworkforteens.com/wp-content/uploads/2015/08/2015-Fall-Winter-2016-Fashion-Trends-For-Teens.jpg"
+  },
+  {
+    "_id": "sdfhw4thrwhw54",
+    "index": 5,
+    "title": "Mona Mi",
+    "price": 9500,
+    "discount":  100,
+    "pictureURL": "https://content.asos-media.com/-/media/homepages/ww/2019/04/29/au-long-sleeve-moments.jpg"
+  }
+]

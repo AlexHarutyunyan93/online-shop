@@ -1,0 +1,33 @@
+.footer {
+    background-color: rgb(213,18,74);
+}
+.footer-wrapper {
+    margin: auto;
+    max-width: 1200px;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 200px;
+}
+.top-footer {
+    height: 70%;
+}
+.bottom-footer {
+    width: 100%;
+}
+
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social a {
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    float: left;
+    background: rgb(213,18,74);
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #fff;
+    font-size: 12px;
+}
+
+

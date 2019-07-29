@@ -1,0 +1,9 @@
+.main-content-wrapper {
+    background: #fff;
+    margin: 0 auto;
+    padding-bottom: 16px;
+    box-sizing: border-box;
+}
+.main-content{
+    max-width: 1200px;
+}

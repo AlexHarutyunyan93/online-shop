@@ -1,0 +1,65 @@
+[
+  {
+    "id": "593e9297e17df20c4a237d42",
+    "index": 0,
+    "title": "Green day",
+    "price": 3000,
+    "pictureURL": "https://static-eu.insales.ru/images/products/1/765/143393533/image1xxl__4_.jpg"
+  },
+  {
+    "id": "593e9297ec4cca9c56bf61af",
+    "index": 1,
+    "title": "Blue day",
+    "price": 4000,
+    "pictureURL": "https://static-eu.insales.ru/images/products/1/689/143393457/image1xxl__3_.jpg"
+  },
+  {
+    "id": "593e929773c71925e5d7c11c",
+    "index": 2,
+    "title": "Sindy Kay",
+    "price": 4500,
+    "pictureURL": "https://static-eu.insales.ru/images/products/1/697/143393465/image1xxl__2_.jpg"
+  },
+  {
+    "id": "593e929773c71925e5d7c12c",
+    "index": 3,
+    "title": "Moon Night",
+    "price": 12000,
+    "pictureURL": "https://static-eu.insales.ru/images/products/1/638/143393406/image2xxl.jpg"
+  },
+  {
+    "id": "593e929773c71925e5d7c13c",
+    "index": 4,
+    "title": "Silver Stoun",
+    "price": 6000,
+    "pictureURL": "https://static-eu.insales.ru/images/products/1/722/143393490/image1xxl__1_.jpg"
+  },
+  {
+    "id": "593e929773c70925e5d7c13a",
+    "index": 5,
+    "title": "Mona Mi",
+    "price": 3000,
+    "pictureURL": "https://static-eu.insales.ru/images/products/1/618/143393386/image3xxl.jpg"
+  },
+  {
+    "id": "593e929773c7asd925e5d7c13a",
+    "index": 6,
+    "title": "Mona Mi",
+    "price": 3000,
+    "pictureURL": "https://static-eu.insales.ru/images/products/1/618/143393386/image3xxl.jpg"
+  },
+  {
+    "id": "593e929773c7asddfg925e5d7c13a",
+    "index": 7,
+    "title": "Mona Mi",
+    "price": 3000,
+    "pictureURL": "https://static-eu.insales.ru/images/products/1/618/143393386/image3xxl.jpg"
+  },
+  {
+    "id": "asdasdasdasd",
+    "index": 8,
+    "title": "Mona Mi",
+    "price": 3000,
+    "pictureURL": "https://static-eu.insales.ru/images/products/1/618/143393386/image3xxl.jpg"
+  }
+]

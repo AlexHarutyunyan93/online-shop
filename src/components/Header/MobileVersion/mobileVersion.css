@@ -1,0 +1,18 @@
+.mobile-header-wrapper {
+    width: 100%;
+    background: var(--contentColor);
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+.mobile-header {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.top-panel-open-sidebar {
+    font-weight: unset;
+    font-size: 40px;
+    color: #fff;
+    outline: none;
+    background: none;
+}

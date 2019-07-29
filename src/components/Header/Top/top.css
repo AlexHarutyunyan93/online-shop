@@ -1,0 +1,49 @@
+.top-header-wrapper {
+    width: 100%;
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    position: fixed;
+    background: white;
+    z-index: 3;
+}
+.top-header {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 16px;
+    box-sizing: border-box;
+}
+.top-header-nav-bar {
+    list-style-type: none;
+    display: flex;
+}
+.top-header-wrapper li {
+    margin-right: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.top-header-wrapper li:hover {
+   color: var(--contentColor);
+}
+.header-cart-link {
+    display: flex;
+    justify-content: space-between;
+    width: 75px;
+}
+.header-cart:hover {
+    color: var(--contentColor);
+    transition: 0.5s;
+}
+.header-cart-count {
+    width: 15px;
+    color: #fff;
+    background: var(--contentColor);
+    text-align: center;
+}
+
+@media(max-width: 1024px){
+    .top-header-wrapper li:first-child{
+        display: none;
+    }
+}

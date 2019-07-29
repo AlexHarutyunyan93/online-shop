@@ -1,0 +1,22 @@
+.bottom-header-wrapper {
+    width: 100%;
+    background: var(--contentColor);
+    padding: 15px 20px;
+    box-sizing: border-box;
+}
+
+.bottom-header {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.bottom-header ul {
+    width: 100%;
+}
+.bottom-link {
+    color: #fff;
+    cursor: pointer;
+}
+.bottom-header-nav-bar {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,50 @@
+[
+  {
+    "_id": "adfasdgergrt45yh",
+    "index": 0,
+    "title": "Green day",
+    "price": 1000,
+    "discount": 100,
+    "pictureURL": "https://i.pinimg.com/originals/0e/ca/ce/0ecace611d210ccf4122a74df0d7d7e1.jpg"
+  },
+  {
+    "_id": "12werfgnmshg",
+    "index": 1,
+    "title": "Blue day",
+    "price": 2000,
+    "discount":  100,
+    "pictureURL": "https://ae01.alicdn.com/kf/HTB1sRHIMVXXXXadXFXXq6xXFXXX5/Luxury-Women-Fashion-Sexy-Hollow-Out-Lace-Felicia-Embroided-Midi-Dress-Wedding-Party-Designer-2016-Clothing.jpg"
+  },
+  {
+    "_id": "ertyujkmnjhgyui",
+    "index": 2,
+    "title": "Sindy Kay",
+    "price": 3000,
+    "discount":  100,
+    "pictureURL": "https://www.liveabout.com/thmb/htEnIhjbkD6Jjqcu_dVRTn2XGMA=/870x1110/filters:fill(auto,1)/asos-plus-size-maxi-dress-56e73ba73df78c5ba05773ab.jpg"
+  },
+  {
+    "_id": "thrstgh4dg56h",
+    "index": 3,
+    "title": "Moon Night",
+    "price": 4000,
+    "discount":  100,
+    "pictureURL": "https://s1.r29static.com/bin/shop/8b6/x,80/1345237/image.jpg"
+  },
+  {
+    "_id": "dfh65s4df56gh4s6gh",
+    "index": 4,
+    "title": "Silver Stoun",
+    "price": 5000,
+    "discount":  100,
+    "pictureURL": "https://ae01.alicdn.com/kf/HTB1kOvGPpXXXXcJXXXXq6xXFXXXR/Fashion-Women-Printing-Leopard-Print-Dress-Tee-Dresses.jpg"
+  },
+  {
+    "_id": "sfd4ghs64gh6sgh",
+    "index": 5,
+    "title": "Mona Mi",
+    "price": 6500,
+    "discount":  100,
+    "pictureURL": "http://www.artyholistchic.co.nz/images/category_60/Fashion%20high%20quality%20Fashion%20Union%20women%20dresses%20Leopard%20sNIn6LAJ.jpg"
+  }
+]

@@ -1,0 +1,26 @@
+.middle-header-wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 0 1.8%;
+    box-sizing: border-box;
+}
+.middle-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo-wrapper {
+    max-width: 200px;
+}
+.logo {
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .middle-header {
+        justify-content: center;
+    }
+    .left-side, .right-side {
+        display: none;
+    }
+}

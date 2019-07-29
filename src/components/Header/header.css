@@ -1,0 +1,16 @@
+header {
+    background: white;
+}
+.mobile-header-wrapper {
+    display: none;
+}
+@media (max-width: 768px) {
+    .bottom-header-wrapper,
+    .top-header-wrapper
+    {
+        display: none;
+    }
+    .mobile-header-wrapper {
+        display: block;
+    }
+}

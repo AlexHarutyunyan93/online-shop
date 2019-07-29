@@ -1,0 +1,19 @@
+.main-collections-wrapper {
+    width: 100%;
+
+}
+.main-collections {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0 20px 1.8% ;
+    box-sizing: border-box;
+}
+.product-card-wrapper {
+    max-width: 31.5333333333%;
+}
+@media (max-width: 786px) {
+    .product-card-wrapper {
+        max-width: 48.2%;
+    }
+}

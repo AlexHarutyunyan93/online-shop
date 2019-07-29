@@ -1,0 +1,35 @@
+.info-about-wrapper {
+    width: 100%;
+    padding: 1.8%;
+    box-sizing: border-box;
+}
+.info-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about-img {
+    width: 35%;
+    padding: 10px;
+}
+.about-img img {
+    width: 100%;
+}
+.about-description {
+    width: 60%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+@media (max-width: 786px) {
+    .info-about {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about-img {
+        width: 50%;
+    }
+    .about-description {
+        width: 80%;
+    }
+}

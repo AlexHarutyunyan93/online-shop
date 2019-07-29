@@ -1,0 +1,14 @@
+.promo-slider-wrapper {
+    padding: 0 16px;
+    margin: 50px 0;
+    box-sizing: border-box;
+}
+.control-arrow {
+    width: 50px;
+}
+.carousel {
+    display: none;
+}
+.carousel-slider {
+    display: block;
+}

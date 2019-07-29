@@ -1,0 +1,29 @@
+.collections-slider {
+    width: 100%;
+    margin-top: 40px;
+    overflow: hidden;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.collections-slider-wrapper {
+    display: flex;
+    transition: 0.5s ease;
+}
+.button {
+    width: 35px;
+    background: none;
+    font-size: 30px;
+    outline: none;
+    transition: 0.5s
+}
+.button.next {
+    float: right;
+}
+.button:hover {
+    color: var(--contentColor);
+}
+.collection-title {
+    text-align: center;
+}
+
+

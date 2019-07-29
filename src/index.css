@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --contentColor: rgb(213,18,74);
+}
+html,body {
+  height: 100%;
+}
+body {
+  background-color: rgb(245,245,245);
+  font-family: Istok Web, sans-serif;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+}
+.button {
+  display: inline-block;
+  max-width: 100%;
+  position: relative;
+  padding: 0;
+  z-index: 1;
+  border: none;
+  vertical-align: top;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  -webkit-box-shadow: none;
+  line-height: 1rem;
+  box-shadow: none;
+  cursor: pointer;
+}
