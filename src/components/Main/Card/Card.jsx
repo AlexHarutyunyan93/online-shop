@@ -3,15 +3,16 @@ import './Card.css';
 
 const Card = (props) => {
     const { pictureURL, price, title, addToCart, discount, key } = props;
+    console.log(props);
     return (
         <div key={key} className="product-card-wrapper">
             <div className="product-card">
                 <div className="inProduct-card">
                     {
-                        discount === 100 ? '' :
+                        !discount ? discount :
                             <div className='discount'>
-                        -{100-discount}%
-                        </div>
+                                -{discount}%
+                            </div>
                     }
                         <img className="flexible-image" src={ pictureURL } alt={title}/>
                     <button onClick={ () => addToCart( props ) } className="product-card-control">
@@ -21,9 +22,9 @@ const Card = (props) => {
                 <div className="product-card-form_block">
                     <div className="product-price">
                         {
-                            discount === 100 ? price : <span>
+                            !discount ? price : <span>
                                 <strike>{price} руб</strike>
-                                { price/100*discount }
+                                { price/100* (100 - discount) }
                             </span>
                         } руб
                     </div>
