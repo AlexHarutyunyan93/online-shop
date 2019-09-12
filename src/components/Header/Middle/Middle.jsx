@@ -1,8 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
 import './middle.css';
 
 const Middle = () => {
+    const [query, setQuery] = useState('');
+    const handleChange = e => {
+        setQuery(e.target.value)
+    };
     return(
         <div className="middle-header-wrapper">
             <div className="middle-header">
@@ -16,7 +20,18 @@ const Middle = () => {
                 </NavLink>
 
                 <div className="right-side">
-                    <input placeholder="Поиск товаров" type="search"/>
+                    <form action={`http://localhost:4000/api/search/?q=${query.split(" ").join("+")}`} method="get" >
+                        <div className="wrap">
+                            <div className="search">
+                                <input type="text" value={query} onChange={handleChange} name="searching" className="searchTerm" placeholder="Поиск товаров" />
+                                <button type="submit" className="searchButton">
+                                    <i className="fa fa-search">
+                                        <NavLink to="/" className="logo-wrapper"></NavLink>
+                                    </i>
+                                </button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
