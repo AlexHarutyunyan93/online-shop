@@ -3,12 +3,12 @@ import { connect } from 'react-redux';
 import Collection from '../components/Main/Collections/Collection';
 import { bindActionCreators } from 'redux';
 import * as dressesActions from '../actions/dresses';
-import request from '../actions/http';
+import request from '../config/http';
 
 class Collections extends React.Component {
     componentDidMount() {
-        const { setDresses, url } = this.props;
-        request(url, setDresses);
+        const {setDresses, language} = this.props;
+        request(setDresses, language);
     }
     render(){
         return(
@@ -17,7 +17,8 @@ class Collections extends React.Component {
     }
 };
 
-const mapStateToProps = ({ dresses }) => ({
+const mapStateToProps = ({ dresses, language }) => ({
+    language: language.language,
     dresses: dresses.items,
     isReady: dresses.isReady,
 });
