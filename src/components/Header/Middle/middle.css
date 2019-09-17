@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 .middle-header-wrapper {
     max-width: 1200px;
     margin: 0 auto;
@@ -16,6 +17,44 @@
 .logo {
     width: 100%;
 }
+
+
+/*search bar*/
+
+
+.search {
+    width: 100%;
+    position: relative
+}
+
+.searchTerm {
+    float: left;
+    width: 100%;
+    border: 3px solid var(--contentColor);;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+
+}
+
+
+.searchButton {
+    position: absolute;
+    right: -50px;
+    width: 40px;
+    height: 36px;
+    border: 1px solid var(--contentColor);
+    background: var(--contentColor);
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+
 @media (max-width: 768px) {
     .middle-header {
         justify-content: center;
