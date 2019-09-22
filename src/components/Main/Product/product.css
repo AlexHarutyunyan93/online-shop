@@ -1,0 +1,24 @@
+.product-container {
+    display: flex;
+}
+.product-img-wrapper {
+    display: flex;
+    width: 40%;
+}
+.product-img-wrapper img {
+    width: 100%;
+}
+.product-img-list {
+    width: 15%;
+}
+.show-one {
+    width: 85%;
+}
+.descriptions {
+    padding: 20px;
+    box-sizing: border-box;
+}
+.descriptions ul {
+    padding: 18px;
+    box-sizing: border-box;
+}
