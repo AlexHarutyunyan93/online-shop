@@ -21,13 +21,6 @@ const Top = ({count, language, setLanguage}) => {
                         <div className="header-cart-count">{ count }</div>
                     </NavLink>
                 </div>
-                <div className="language">
-                    <select onChange={(e) => setLanguage(e.target.value)} value={language}>
-                        <option value="0">RU</option>
-                        <option value="1">EN</option>
-                        <option value="2">AM</option>
-                    </select>
-                </div>
             </div>
         </nav>
     );
