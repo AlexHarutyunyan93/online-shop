@@ -14,11 +14,11 @@ const Main = () => {
                <Route exact path='/' render={() => <Home url='/data.json' /> } />
                 <Route path='/cart' render={() => <Cart /> } />
                 <Route path='/about' render={() => <About /> } />
-                <Route path='/products' render={() => <Product />
-               <Route path='/Spring-Summer' render={() => <Collection url='/api/spring-summer' /> } />
-               <Route path='/Winter-Oen' render={() => <Collection url='/collections/WinterOen.json' /> } />
-               <Route path='/Evening-Dresses' render={() => <Collection url='/collections/EveningDresses.json' /> } />
-               <Route path='/Kids' render={() => <Collection url='/collections/Kids.json' /> } />
+                <Route path='/products' render={() => <Product /> } />
+                <Route path='/Spring-Summer' render={() => <Collection url='/data.json' /> } />
+                <Route path='/Winter-Oen' render={() => <Collection url='/data.json' /> } />
+                <Route path='/Evening-Dresses' render={() => <Collection url='/data.json' /> } />
+                <Route path='/Kids' render={() => <Collection url='/data.json' /> } />
             </div>
         </main>
     );

@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import Home from '../components/Main/Home/Home';
 import { bindActionCreators } from 'redux';
 import * as dressesActions from '../actions/dresses';
-import request from '../actions/http';
+import request from '../config/http';
 
 class HomePage extends React.Component {
     state = {

@@ -4,7 +4,7 @@ import SpecialCategories from "../SpecialCategories/SpecialCategories";
 import PromoSlider from "../PromoSlider/PromoSlider";
 const NewCollections = lazy( () => import("../NewCollections/NewCollections"));
 const SellOut = lazy(() => import("../SellOut/SellOut"));
-const About = lazy(() => import("./About/About"));
+const About = lazy(() => import("../About/About"));
 
 
 function Home(props) {

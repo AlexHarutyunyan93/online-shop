@@ -1,9 +1,9 @@
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
-import * as cartActions from '../actions/cart';
+import * as cartActions from '../actions/cart.actions';
 import Cart from '../components/Main/Cart/Cart';
 
-const mapStarteToProps = ({ cart, lanuage }) => ({
+const mapStarteToProps = ({ cart, language }) => ({
     language: language.language,
     cartItems: cart.items,
     totalPrice: cart.items.reduce((total, dress) => total + dress.price,0),
