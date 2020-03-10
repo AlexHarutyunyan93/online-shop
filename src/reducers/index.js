@@ -1,10 +1,14 @@
 import { combineReducers } from 'redux';
 
-import dresses from './dresses';
+import cards from './cards.reducer';
 import cart from './cart.reducer';
+import language from './language.reducer';
+import specialCategory from './specialCategory.reducer';
 
 
 export default combineReducers({
-    dresses,
+    cards,
     cart,
+    language,
+    specialCategory
 });

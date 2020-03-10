@@ -16,9 +16,8 @@ function getCartItems(){
 
         return fetch(`http://localhost:4000/api/cartitems?q=${query}`, requestOptions)
             .then(handleResponse)
-            .then(data => {
-                return data;
-            });
+            .then(data => data)
+            .catch(err => err)
     }
 }
 

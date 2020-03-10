@@ -14,8 +14,8 @@ function getCartItems(){
 
         cartServices.getCartItems()
             .then(
-                items => {
-                    dispatch(success(items));
+                cards => {
+                    dispatch(success(cards));
                 },
                 error => {
                     dispatch(failure(error.toString()));
@@ -24,7 +24,7 @@ function getCartItems(){
     };
 
     function request() { return { type: cartConstants.GET_CART_ITEMS_REQUEST } }
-    function success(items) { return { type: cartConstants.GET_CART_ITEMS_SUCCESS, payload: items } }
+    function success(cards) { return { type: cartConstants.GET_CART_ITEMS_SUCCESS, payload: cards } }
     function failure(error) { return { type: cartConstants.GET_CART_ITEMS_FAILURE, error } }
 }
 
